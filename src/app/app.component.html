@@ -1,7 +1,14 @@
 <mgl-map
-  [style]="'https://api.maptiler.com/maps/streets/style.json?key=YOUR_MAPTILER_API_KEY_HERE'"
-  [zoom]="[14]"
-  [center]="[16.62662018, 49.2125578]"
+  [style]="'https://api.maptiler.com/maps/streets-v2/style.json?key=WViOcLnX3qoBs3CK8uwE'"
+
+  [zoom]="[10]"
+  [center]="[2.349014, 48.864716]"
 >
+<mgl-marker [lngLat]="[2.349014, 48.864716,
+  ]"></mgl-marker>
+<mgl-marker [lngLat]="[52.349014, 47.864716,
+  ]"></mgl-marker>
 <mgl-control mglNavigation position="top-left"></mgl-control>
 </mgl-map>
+
+<!-- [style]="'https://api.maptiler.com/maps/streets/style.json?key=WViOcLnX3qoBs3CK8uwE'" -->
